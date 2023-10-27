@@ -1,0 +1,76 @@
+.corzinha1 {
+    color: #001dc2;
+    font-family: "open sans", sans-serif;
+}
+
+@keyframes mudarCoresFundoBranco {
+    0% { color: #001dc2; }
+    25% { color: rgb(0, 128, 134); }
+    50% { color: rgb(0, 125, 0); }
+    75% { color: rgb(188, 122, 0); }
+    100% { color: #001dc2; }
+  }
+  @keyframes mudarCoresFundoPreto {
+    0% { color: #3856ff; }
+    25% { color: rgb(59, 245, 255); }
+    50% { color: rgb(67, 255, 67); }
+    75% { color: rgb(255, 179, 37); }
+    100% { color: #3856ff; }
+  }
+.fonteFundoBranco{
+        font-family: "Helvetica Neue", sans-serif;
+        text-decoration: underline double;
+        color:rgb(0, 0, 0);
+        display: inline;
+        animation: mudarCoresFundoBranco 5s infinite;
+    }
+.fonteFundoPreto{
+    font-family: "Helvetica Neue", sans-serif;
+    text-decoration: underline double;
+    color:rgb(0, 0, 0);
+    display: inline;
+    animation: mudarCoresFundoPreto 5s infinite;    
+}
+.fonte2{
+    font-family: "Garamond", serif;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    border-collapse: collapse;
+    background-color: rgb(39, 39, 39);
+}
+
+td, th {
+    border: 3px solid #001dc2; /* Borda fina em todas as células */
+    padding: 5px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento do texto à esquerda */
+}
+
+.centered-element {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+.flex{
+    display: flex;
+}
+.elemento2{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#botao{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    cursor: pointer;
+    background: linear-gradient(to right, #2e2e2e, #c1c1c1);
+    color: #fbff00;
+}
+
+.fundoPreto{
+    background: linear-gradient(to bottom right, #1e1e1e, #797979);
+}
+.fundoBranco{
+    background: linear-gradient(to bottom right, #dfdfdf, #5e5e5e);
+}

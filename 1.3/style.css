@@ -1,0 +1,49 @@
+.corzinha1 {
+    color: rgb(195, 195, 195);
+    font-family: "open sans", sans-serif;
+}
+
+@keyframes mudarCores {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: red; }
+  }
+
+.fonte1{
+        font-family: "Helvetica Neue", sans-serif;
+        text-decoration: underline double;
+        color:rgb(0, 0, 0);
+        display: inline;
+        animation: mudarCores 5s infinite;
+    }
+
+body {
+    background: linear-gradient(to bottom right, #cfcfcf, #757575);
+    display: inline;
+}
+
+.fonte2{
+    font-family: "Garamond", serif;
+    color: rgb(255, 255, 255);
+}
+
+.centered-element {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.elemento2{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
